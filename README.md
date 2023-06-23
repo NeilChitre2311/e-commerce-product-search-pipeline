@@ -45,7 +45,7 @@ The repository contains the following files and directories:
     - `user_definition.py`: Defines environment variables used across files
     - `helper.py`: Contains helper functions
     - `config.ini`: Stores the RapidAPI token and host details
-- `model/`: Model for calculating BM25 scores
+- `model/`: Model for calculating TF-IDF Cosine similarity scores
     - `similarity.py`: Calculates similarity scores and ranks the top 10 items
 - `dag/`: Airflow DAG for orchestrating the pipeline
     - `search_engine_dag.py`: Defines the DAG and tasks for the search engine pipeline
